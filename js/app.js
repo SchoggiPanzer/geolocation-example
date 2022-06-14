@@ -7,6 +7,7 @@ const setCoordText = (latitude, longitude) => {
 }
 
 const addTracking = () => {
+    console.log('Add position tracker');
     navigator.geolocation.watchPosition(updatePosition, handleError, {enableHighAccuracy: true})
 }
 
