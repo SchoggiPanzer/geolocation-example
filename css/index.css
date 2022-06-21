@@ -1,1 +1,14 @@
-#leaflet-map { height: 500px; }
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+}
+
+#leaflet-map {
+    width: 100vw;
+    height: 80vh;
+}
+
+

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Geolocation Example</title>
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
@@ -14,9 +15,11 @@
             crossorigin=""></script>
 </head>
 <body>
-    <button id="position-btn">Show my Position on map</button>
+    <button id="position-btn">Show my position on map</button>
+    <button id="tracking-btn" disabled>Start position tracking</button>
     <div id="lat-container"></div>
     <div id="long-container"></div>
+    <div id="speed-container"></div>
     <div id="leaflet-map"></div>
 
     <script src="js/app.js"></script>
